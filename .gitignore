@@ -1,0 +1,7 @@
+var
+composer.lock
+composer.phar
+vendor
+etc/nginx.conf
+etc/phpdoc
+etc/phpunit
