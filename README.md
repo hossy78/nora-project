@@ -14,3 +14,13 @@ master:
 
 website:
 ウェブサイトサンプル
+
+
+## テスト方法
+
+phpunit のインストール
+
+$make phpunit
+
+cd ./tests
+phpunit case/SampleTest.php

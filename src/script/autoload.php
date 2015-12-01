@@ -2,7 +2,8 @@
 use Nora\Nora;
 
 # NoraのAutoLoaderを呼び出す
-require_once realpath(__DIR__.'/../../lib/nora/script/autoload.php');
+#require_once realpath(__DIR__.'/../../lib/nora/script/autoload.php');
+require_once realpath(__DIR__.'/../../vendor/autoload.php');
 
 # 環境名
 $env = 'devel';

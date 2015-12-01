@@ -1,0 +1,15 @@
+{
+    "name"        : "nora-project",
+    "version"     : "0.0.1",
+    "type"        : "Application",
+    "require": {
+        "nora/php"      : "master-dev",
+        "twig/twig": "~1.0"
+    },
+    "repositories" : [ 
+        {   
+            "type" : "vcs",
+            "url"  : "ssh://git@tamam.hajime.work:2222/nora/php"
+        }  
+    ]
+}
